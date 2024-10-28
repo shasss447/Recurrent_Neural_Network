@@ -51,4 +51,4 @@ class RNN:
         self.Wxh-=lr*d_wxh
         self.Wyh-=lr*d_why
         self.bxh-=lr*d_bxh
-        self.byh-=lr*d_byh
+        self.byh-=lr*d_byh  
